@@ -1,0 +1,3 @@
+[submodule "shell-scripts/challenge-template"]
+	path = shell-scripts/challenge-template
+	url = git@github.com:tomrule007/challenge-template.git
