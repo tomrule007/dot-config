@@ -1,0 +1,5 @@
+[user]
+	name = Thomas Herzog
+	email = Tomrule007@gmail.com
+[credential]
+	helper = cache --timeout=3600
