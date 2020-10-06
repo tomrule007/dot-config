@@ -1,0 +1,42 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-great-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.snippetSuggestions": "top",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.userWords": [
+        "Bookmarklet",
+        "IIFE",
+        "memoization",
+        "minmax"
+    ],
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "sync.gist": "b8c5b97d4cc510f72cde037cf15ce973",
+    "prettier.singleQuote": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false,
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "window.menuBarVisibility": "default",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false
+}
