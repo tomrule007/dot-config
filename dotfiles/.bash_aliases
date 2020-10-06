@@ -1,2 +1,2 @@
 alias o='xdg-open'
-alias tt=/home/thomas/github/shell-scripts/toggle-touchpad.sh
+alias tt=/home/thomas/github/dot-config/shell-scripts/toggle-touchpad.sh
