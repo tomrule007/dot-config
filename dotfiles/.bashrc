@@ -116,4 +116,4 @@ echo Finished .bashrc
 export PATH=~/bin:$PATH
 export PATH=/snap/bin:$PATH
 export DOCKER_HIDE_LEGACY_COMMANDS=true
-export PATH=$PATH:/home/thomas/JS/challenge-template
+export PATH=/home/thomas/github/dot-config/shell-scripts/challenge-template:$PATH
