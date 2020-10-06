@@ -1,8 +1,8 @@
 ##!/bin/bash
-# directoy of this script
-BASEDIR=$(dirname "$0")
+# Get script path
+SCRIPT_PATH=$(dirname $(readlink -f "$0"))
 
 # *Use -sf if you would like to overwrite your current config files.
-ln -s $BASEDIR/dotfile/.bash_aliases ~/.bash_aliases
-ln -s $BASEDIR/dotfile/.bashrc ~/.bashrc
-ln -s $BASEDIR/dotfile/.gitconfig ~/.gitconfig
+ln -s $SCRIPT_PATH/dotfiles/.bash_aliases ~/.bash_aliases
+ln -s $SCRIPT_PATH/dotfiles/.bashrc ~/.bashrc
+ln -s $SCRIPT_PATH/dotfiles/.gitconfig ~/.gitconfig
