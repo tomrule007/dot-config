@@ -1,13 +1,13 @@
 {
+  "zenMode.hideLineNumbers": false,
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "editor.formatOnSave": true,
-  "window.zoomLevel": 0,
   "workbench.iconTheme": "vscode-great-icons",
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "none",
   "editor.snippetSuggestions": "top",
@@ -16,7 +16,14 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": ["Bookmarklet", "IIFE", "memoization", "minmax"],
+  "cSpell.userWords": [
+    "Bookmarklet",
+    "IIFE",
+    "endregion",
+    "hacky",
+    "memoization",
+    "minmax"
+  ],
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -33,7 +40,23 @@
   "gitlens.gitCommands.closeOnFocusOut": true,
   "window.menuBarVisibility": "default",
   "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": false,
   "terminal.integrated.automationShell.linux": "",
-  "terminal.integrated.shellArgs.osx": []
+  "terminal.integrated.shellArgs.osx": [],
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1615157513099,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.linkedEditing": true,
+  "jest.autoRun": {
+    "watch": true
+  },
+  "jest.showCoverageOnLoad": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
